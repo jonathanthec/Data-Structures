@@ -18,7 +18,7 @@ class Queue:
         self.size = 0
         self.storage = DoublyLinkedList()
     
-    def __len__(self):
+    def len(self):
         return len(self.storage)
 
     def enqueue(self, value):

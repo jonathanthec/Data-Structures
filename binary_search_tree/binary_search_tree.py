@@ -9,7 +9,11 @@ This part of the project comprises two days:
 2. Implement the `in_order_print`, `bft_print`, and `dft_print` methods
    on the BSTNode class.
 """
-class BSTNode:
+from my_queue.queue import Queue
+from stack.stack import Stack
+
+
+class BinarySearchTree:
     def __init__(self, value):
         self.value = value
         self.left = None
@@ -17,45 +21,121 @@ class BSTNode:
 
     # Insert the given value into the tree
     def insert(self, value):
-        pass
+        if value < self.value:
+            if not self.left:
+                self.left = BinarySearchTree(value)
+            else:
+                self.left.insert(value)
+        else:
+            if not self.right:
+                self.right = BinarySearchTree(value)
+            else:
+                self.right.insert(value)
 
     # Return True if the tree contains the value
     # False if it does not
     def contains(self, target):
-        pass
+        if self.value == target:
+            return True
+        if self.value > target:
+            if self.left:
+                return self.left.contains(target)
+            else:
+                return False
+        else:
+            if self.right:
+                return self.right.contains(target)
+            else:
+                return False
 
     # Return the maximum value found in the tree
     def get_max(self):
-        pass
+        if self.right is None:
+            return self.value
+        else:
+            return self.right.get_max()
 
     # Call the function `fn` on the value of each node
     def for_each(self, fn):
-        pass
+        if self.left:
+            self.left.for_each(fn)
+        if self.right:
+            self.right.for_each(fn)
+        return fn(self.value)
 
     # Part 2 -----------------------
 
     # Print all the values in order from low to high
     # Hint:  Use a recursive, depth first traversal
+    # noinspection PyMethodMayBeStatic
     def in_order_print(self, node):
-        pass
+        if node.left:
+            node.left.in_order_print(node.left)
+        print(node.value)
+        if node.right:
+            node.right.in_order_print(node.right)
 
     # Print the value of every node, starting with the given node,
     # in an iterative breadth first traversal
+    # noinspection PyMethodMayBeStatic
     def bft_print(self, node):
-        pass
+        queue = Queue()
+        queue.enqueue(node)
+        while queue.len():
+            n = queue.dequeue()
+            print(n.value)
+            if n.left:
+                queue.enqueue(n.left)
+            if n.right:
+                queue.enqueue(n.right)
+
 
     # Print the value of every node, starting with the given node,
     # in an iterative depth first traversal
     def dft_print(self, node):
-        pass
+        stack = Stack()
+        stack.push(node)
+        while stack.len():
+            n = stack.pop()
+            print(n.value)
+            if n.left:
+                stack.push(n.left)
+            if n.right:
+                stack.push(n.right)
 
     # Stretch Goals -------------------------
     # Note: Research may be required
 
     # Print Pre-order recursive DFT
+    # noinspection PyMethodMayBeStatic
     def pre_order_dft(self, node):
-        pass
+        print(node.value)
+        if node.left:
+            node.left.pre_order_dft(node.left)
+        if node.right:
+            node.right.pre_order_dft(node.right)
 
     # Print Post-order recursive DFT
+    # noinspection PyMethodMayBeStatic
     def post_order_dft(self, node):
-        pass
+        if node.left:
+            node.left.post_order_dft(node.left)
+        if node.right:
+            node.right.post_order_dft(node.right)
+        print(node.value)
+
+
+def main():
+    tree = BinarySearchTree(1)
+    tree.insert(8)
+    tree.insert(5)
+    tree.insert(7)
+    tree.insert(6)
+    tree.insert(3)
+    tree.insert(4)
+    tree.insert(2)
+    tree.post_order_dft(tree)
+
+
+if __name__ == '__main__':
+    main()

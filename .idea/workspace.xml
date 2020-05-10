@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9171a3c5-d407-45f1-86d4-ce84fc518410" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/doubly_linked_list/doubly_linked_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/doubly_linked_list/doubly_linked_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary_search_tree/binary_search_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/binary_search_tree/binary_search_tree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary_search_tree/test_binary_search_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/binary_search_tree/test_binary_search_tree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/queue/queue.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/queue/test_queue.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/stack/stack.py" beforeDir="false" afterPath="$PROJECT_DIR$/stack/stack.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stack/test_stack.py" beforeDir="false" afterPath="$PROJECT_DIR$/stack/test_stack.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,31 +18,25 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/stack/stack.py">
+        <entry file="file://$PROJECT_DIR$/binary_search_tree/binary_search_tree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stack/test_stack.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
+            <state relative-caret-position="324">
+              <caret line="127" column="18" lean-forward="true" selection-start-line="127" selection-start-column="18" selection-end-line="127" selection-end-column="18" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#453#485#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/doubly_linked_list/doubly_linked_list.py">
+        <entry file="file://$PROJECT_DIR$/binary_search_tree/test_binary_search_tree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="96" column="31" lean-forward="true" selection-start-line="96" selection-start-column="31" selection-end-line="96" selection-end-column="31" />
+            <state relative-caret-position="322">
+              <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -52,9 +49,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/doubly_linked_list/doubly_linked_list.py" />
         <option value="$PROJECT_DIR$/stack/test_stack.py" />
+        <option value="$PROJECT_DIR$/queue/queue.py" />
+        <option value="$PROJECT_DIR$/my_queue/test_queue.py" />
+        <option value="$PROJECT_DIR$/my_queue/queue.py" />
+        <option value="$PROJECT_DIR$/doubly_linked_list/doubly_linked_list.py" />
         <option value="$PROJECT_DIR$/stack/stack.py" />
+        <option value="$PROJECT_DIR$/binary_search_tree/test_binary_search_tree.py" />
+        <option value="$PROJECT_DIR$/binary_search_tree/binary_search_tree.py" />
       </list>
     </option>
   </component>
@@ -69,7 +71,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1642" />
+    <option name="x" value="1641" />
     <option name="y" value="-18" />
     <option name="width" value="1717" />
     <option name="height" value="1057" />
@@ -90,7 +92,22 @@
             <path>
               <item name="Data-Structures" type="b2602c69:ProjectViewProjectNode" />
               <item name="Data-Structures" type="462c0819:PsiDirectoryNode" />
+              <item name="binary_search_tree" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Data-Structures" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Data-Structures" type="462c0819:PsiDirectoryNode" />
               <item name="doubly_linked_list" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Data-Structures" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Data-Structures" type="462c0819:PsiDirectoryNode" />
+              <item name="lru_cache" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Data-Structures" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Data-Structures" type="462c0819:PsiDirectoryNode" />
+              <item name="my_queue" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Data-Structures" type="b2602c69:ProjectViewProjectNode" />
@@ -106,6 +123,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -120,8 +138,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.stack">
-    <configuration name="stack" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.binary_search_tree">
+    <configuration name="binary_search_tree" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Data-Structures" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -129,11 +147,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stack" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/binary_search_tree" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stack/stack.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/binary_search_tree/binary_search_tree.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_binary_search_tree" type="PythonConfigurationType" factoryName="Python">
+      <module name="Data-Structures" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/binary_search_tree" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/binary_search_tree/test_binary_search_tree.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -163,6 +202,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test_queue" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Data-Structures" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/my_queue" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_queue/test_queue.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test_stack" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Data-Structures" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -184,11 +244,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests in test_stack.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Data-Structures" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stack" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/stack/test_stack.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.stack" />
-        <item itemvalue="Python.test_stack" />
+        <item itemvalue="Python.binary_search_tree" />
         <item itemvalue="Python.test_doubly_linked_list" />
+        <item itemvalue="Python.test_queue" />
+        <item itemvalue="Python tests.Unittests in test_stack.py" />
+        <item itemvalue="Python.test_stack" />
       </list>
     </recent_temporary>
   </component>
@@ -205,8 +281,13 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_in_test_stack_py - 2020.05.09 at 21h 20m 26s.xml">
+      <configuration name="Unittests in test_stack.py" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="1642" y="-18" width="1717" height="1057" extended-state="0" />
+    <frame x="1641" y="-18" width="1717" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
@@ -227,17 +308,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/doubly_linked_list/doubly_linked_list.py</url>
-          <line>71</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -264,6 +334,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/singly_linked_list/singly_linked_list.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stack/test_stack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lru_cache/lru_cache.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/queue/test_queue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/queue/queue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="22" lean-forward="true" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_queue/test_queue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/doubly_linked_list/test_doubly_linked_list.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -273,30 +385,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/singly_linked_list/singly_linked_list.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doubly_linked_list/doubly_linked_list.py">
+    <entry file="file://$PROJECT_DIR$/my_queue/queue.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="96" column="31" lean-forward="true" selection-start-line="96" selection-start-column="31" selection-end-line="96" selection-end-column="31" />
+        <state relative-caret-position="-5">
+          <caret line="1" column="3" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stack/test_stack.py">
+    <entry file="file://$PROJECT_DIR$/doubly_linked_list/doubly_linked_list.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
+        <state relative-caret-position="405">
+          <caret line="72" column="30" lean-forward="true" selection-start-line="72" selection-start-column="30" selection-end-line="72" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stack/stack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/binary_search_tree/test_binary_search_tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stack/stack.py">
+    <entry file="file://$PROJECT_DIR$/binary_search_tree/binary_search_tree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+        <state relative-caret-position="324">
+          <caret line="127" column="18" lean-forward="true" selection-start-line="127" selection-start-column="18" selection-end-line="127" selection-end-column="18" />
+          <folding>
+            <element signature="e#453#485#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -93,6 +93,7 @@ class DoublyLinkedList:
     def remove_from_tail(self):
         if not self.tail:
             return None
+
         value = self.tail.value
         self.delete(self.tail)
         return value

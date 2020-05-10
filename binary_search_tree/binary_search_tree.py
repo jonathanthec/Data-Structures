@@ -89,9 +89,9 @@ class BinarySearchTree:
             if n.right:
                 queue.enqueue(n.right)
 
-
     # Print the value of every node, starting with the given node,
     # in an iterative depth first traversal
+    # noinspection PyMethodMayBeStatic
     def dft_print(self, node):
         stack = Stack()
         stack.push(node)
@@ -134,7 +134,7 @@ def main():
     tree.insert(3)
     tree.insert(4)
     tree.insert(2)
-    tree.post_order_dft(tree)
+    tree.bft_print(tree)
 
 
 if __name__ == '__main__':

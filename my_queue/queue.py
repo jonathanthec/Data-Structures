@@ -1,3 +1,4 @@
+from doubly_linked_list.doubly_linked_list import DoublyLinkedList
 """
 A queue is a data structure whose primary purpose is to store and
 return elements in First In First Out order. 
@@ -10,16 +11,18 @@ return elements in First In First Out order.
 3. What is the difference between using an array vs. a linked list when 
    implementing a Queue?
 """
+
+
 class Queue:
     def __init__(self):
         self.size = 0
-        # self.storage = ?
+        self.storage = DoublyLinkedList()
     
-    def __len__(self):
-        pass
+    def len(self):
+        return len(self.storage)
 
     def enqueue(self, value):
-        pass
+        self.storage.add_to_tail(value)
 
     def dequeue(self):
-        pass
+        return self.storage.remove_from_head()
